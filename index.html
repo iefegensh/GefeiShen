@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/id.jpg" alt="Gefei Shen" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Gefei Shen">Gefei Shen</h1>
+
+          <p class="title">ACMS @ UW-Seattle</p>
+        </div> 
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="gefeis3@uw.edu" class="contact-link">gefeis3@uw.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:++12068494053" class="contact-link">+1 (206) 849-4053</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-06-10">June 10, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Seattle, Washington, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/gefei-shen-118a11229/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Courses</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            
+            Hi, my name is Gefei Shen,  Applied and Computational Mathematical Science : DATA SCIENCES AND STATISTICS student at the University of Washington-Seattle, graduating in June 2025. With a passion for data science and statistics, I've maintained a 3.85/4.00 GPA. My technical proficiency includes Java,  Python, Database Management, Data Mining and Data Visualization.
+
+          </p>
+
+          <p>
+            Currently, I am conducting research in the High-Performance and Data-Intensive Computing (HPDIC) lab under the mentorship of Professor Dongfang Zhao. 
+            Our first project on  Nonparametric Topological Layers in Neural Networks has been accepted by 
+            The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) 2024(ORAL). 
+            Currently, I am working on Vector Database project.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Mining</h4>
+
+                <p class="service-item-text">
+                  Machine Learning <br>
+                  Nonparametric method <br>
+                  High-demension Data Compression <br>
+                  Statistical Inference 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mathematics</h4>
+
+                <p class="service-item-text">
+                  Abstract Algebra <br>
+                  Probability Theory <br> 
+                  Linear Algebra <br>
+                  Optimazation 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+
+                <p class="service-item-text">
+                  I am currently conducting research on Scientific Vector Database.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Washington - Seattle</h4>
+
+              <span>2021-2025</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in AMCS :Data Science and Statistics</br>
+                GPA: 3.85/4.00<br/>
+                Seattle, WA
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          
+          <ol class="timeline-list">
+            <h4 class="h4 timeline-item-title">Undergrad Research Assistant in HPDIC Lab Mentored by Professor Dongfang Zhao</h4>
+            <li class="timeline-item">
+              <span>09/2023 — 11/2024</span>
+              <h5 class="h5 timeline-item-title">Nonparametric Method in Neural Networks</h4>
+              <p class="timeline-text">
+                  •	Towards Nonparametric Topological Layers in Neural Networks accepted by PAKDD 2024  (ORAL) <br>
+                  •	Developed a nonparametric approach to integrate topological layers into neural networks. <br>
+                  •	Established and validated continuous metrics for the proposed methodology, ensuring stability and reliability in the learning process of the topological layer. <br>
+                  • Utilized in a gradient-based learning procedure to develop a differentiable loss function, facilitating the smooth integration of topological layers with standard neural network training.
+              </p>
+            </li>
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Scientific Vector Database</h4>
+              <span>12/2023 — Currently Enrolled</span>
+              <p class="timeline-text">
+                •	Using python to generate scientific material file <br>
+                •	Utilizing PRISM algorithm to get the output image <br>
+                •	Utilizing vector database to store the output image. Using similarity algorithms, we could increase the searching time by 15 times
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="65">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="60">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database Management</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+  - #COURSES
+-->
+
+<article class="courses" data-page="courses">
+
+  <header>
+    <h2 class="h2 article-title">Courses</h2>
+  </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Data Science</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 423: Applied Regression and Analysis of Variance</h4>
+            <span>01/2024 — Present</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 416: Introduction to Machine Learning</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 391: Quantitative Introductory Statistics for Data Science</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 414: Database Management</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+
+         
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 395: Probability Theory II</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 394: Probability Theory I</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 163: Data Visualization in Python</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">INFO 201: Data Visualization in R</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH352: Matrix Algebra with Applications and Numerical Analysis</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Math 208: Linear Algebra</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH 301: Beginning Scientific Computing</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">CS/DS related course</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 402: Introduction to Modern Algebra (Ring Theory)</h4>
+            <span>01/2024 — present</span>
+          </li>
+
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH 383: Continuous Mathematical Modeling</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 381: Discrete Mathematical Modeling</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 373: Data Structures and Algorithms</h4>
+            <span>01/2023 — 03/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 300: Discrete Methematical Reasoning</h4>
+            <span>03/2023 — 06/2022</span>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 121: Mechanics</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 122: Electromagnetism(AP)</h4>
+            <span>05/2021</span>
+          </li>
+          
+         
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 207: Differential Equations</h4>
+            <span>03/2022 — 06/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 142/143: Java Programming I/II</h4>
+            <span>2021-2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 124/125/126: Calculus I/II/III (AP for Calculus I, II)</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+        </ol>
+
+      </section>
+
+    </ul>
+
+  </section>
+
+</article>
+
+     
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.5330266133847!2d-122.3100328236043!3d47.65464067119421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014929d8535eb%3A0x6b742c7901b82ba3!2sUniversity%20of%20Washington!5e0!3m2!1szh-CN!2sus!4v1703207027452!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
