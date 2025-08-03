@@ -1,0 +1,240 @@
+<!-- Harvard / MIT Section -->
+<article class="courses" data-page="courses">
+  <header>
+    <h2 class="h2 article-title">Courses</h2>
+  </header>
+
+  <!-- MIT Courses -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">MIT Courses</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">MIT 18.100A Real Analysis (MIT OpenCourse)</h4>
+        <span>06/2024 — 08/2024</span>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">MIT 6.3900: Introduction to Machine Learning</h4>
+        <span>09/2025 — 12/2025</span>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Harvard Courses -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Harvard Courses</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Harvard STAT 122: Introduction to Probability and Statistics</h4>
+        <span>09/2025 — 12/2025</span>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Harvard CS 207: Algorithms</h4>
+        <span>09/2025 — 12/2025</span>
+      </li>
+    </ol>
+  </section>
+
+
+  <header>
+    <h2 class="h2 article-title">Courses</h2>
+  </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">University of Wsahington</h3>
+        </div>
+
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT498: Agile Data Science</h4>
+            <span>01/2025 - 03/2025</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">ECON 488: Causal Inference</h4>
+            <span>01/2025 - 03/2025</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH482: Computational Methods for Data Analysis</h4>
+            <span>01/2025 - 03/2025</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 516: Stochastic Modeling of Scientific Data</h4>
+            <span>09/2024 — 12/2024</span>
+          </li>
+          
+           <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 451: Visualizing Data</h4>
+            <span>09/2024 — 12/2024</span>
+          </li>
+          
+           <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 407: Linear Optimizationg</h4>
+            <span>09/2024 — 12/2024</span>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 435: Statistical Machine Learning</h4>
+            <span>03/2024 — 06/2024</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 403: Resampling Inference</h4>
+            <span>03/2024 — 06/2024</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 318: Advanced Linear Algebra</h4>
+            <span>03/2024 — 06/2024</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 423: Applied Regression and Analysis of Variance</h4>
+            <span>01/2024 — 03/2024</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 416: Introduction to Machine Learning</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 391: Quantitative Introductory Statistics for Data Science</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 414: Database Management</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+
+         
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 395: Probability Theory II</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 394: Probability Theory I</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 163: Intermediate Data Programming</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">INFO 201: Data Visualization in R</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH352: Matrix Algebra with Applications and Numerical Analysis</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Math 208: Linear Algebra</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH 301: Beginning Scientific Computing</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+        </ol>
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MIT 18.100A Real Analysis (MIT OpenCourse) </h4>
+            <span>06/2024 — 08/2024 </span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 402: Introduction to Modern Algebra (Ring Theory)</h4>
+            <span>01/2024 — 03/2024 </span>
+          </li>
+
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">INFO 340: Client-Side Web Development</h4>
+            <span>01/2024 — 03/2024 </span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH 383: Continuous Mathematical Modeling</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 381: Discrete Mathematical Modeling</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 373: Data Structures and Algorithms</h4>
+            <span>01/2023 — 03/2023</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 300: Discrete Methematical Reasoning</h4>
+            <span>03/2023 — 06/2022</span>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 121: Mechanics</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 122: Electromagnetism(AP)</h4>
+            <span>05/2021</span>
+          </li>
+          
+         
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 207: Differential Equations</h4>
+            <span>03/2022 — 06/2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 142/143: Java Programming I/II</h4>
+            <span>2021-2022</span>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 124/125/126: Calculus I/II/III (AP for Calculus I, II)</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+
+        </ol>
+
+      </section>
+
+    </ul>
+
+  </section>
+
+</article>

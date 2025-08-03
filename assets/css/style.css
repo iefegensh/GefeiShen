@@ -1881,3 +1881,44 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+.enhanced-info {
+  background: var(--bg-gradient-jet);
+  border: 1px solid var(--jet);
+  border-radius: 16px;
+  padding: 20px 24px;
+  text-align: center;
+  box-shadow: var(--shadow-2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enhanced-info:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-3);
+}
+
+.enhanced-info .name {
+  font-size: var(--fs-2);
+  color: var(--white-2);
+  font-weight: var(--fw-600);
+  margin-bottom: 10px;
+  background: var(--text-gradient-yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.enhanced-info .affiliation {
+  font-size: var(--fs-6);
+  color: var(--light-gray);
+  background: var(--onyx);
+  padding: 5px 12px;
+  margin: 6px auto;
+  border-radius: 10px;
+  width: fit-content;
+  font-weight: var(--fw-300);
+}
+
+.contact-info .contact-link {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
